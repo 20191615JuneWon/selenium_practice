@@ -16,8 +16,6 @@ driver.find_element(By.NAME, 'loginPwd').send_keys(PASSWORD)
 
 driver.find_element(By.CLASS_NAME, 'submitform').click()
 
-driver.find_element(By.TAG_NAME, 'title').screenshot()
-
 
 
 
